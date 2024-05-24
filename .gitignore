@@ -2,6 +2,8 @@
 .idea/
 venv/
 test.py
+Portfolio.docx
+~$rtfolio.docx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
