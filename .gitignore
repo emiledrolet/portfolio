@@ -3,7 +3,7 @@
 venv/
 test.py
 Portfolio.docx
-~$rtfolio.docx
+static
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

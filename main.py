@@ -6,6 +6,16 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route("/web_scraping")
+def web_scraping():
+    return render_template("web_scraping.html")
+
+@app.route("/company_analysis")
+def company_analysis():
+    return render_template("company_analysis.html")
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 

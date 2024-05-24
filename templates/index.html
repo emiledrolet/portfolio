@@ -2,13 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <h1>Welcome to my portfolio</h1>
 
-    <h2>Here my projects</h2>
+    <a href="https://github.com/emiledrolet/portfolio", target="_blank">Github Website</a>
 
+    <h2>Personal projects</h2>
+    <ul>
+        <li><a href={{url_for("web_scraping")}}>Web Scraping</a></li>
+        <li><a href={{url_for("company_analysis")}}>Company Analysis</a></li>
+    </ul>
+
+    <h2>Corporate projects</h2>
+    <p>I can't show the code due to confidentiality</p>
+    <ul>
+        <li>VBA - Créer des macros Excel permettant d’automatiser le processus, résultant à une augmentation
+            d’environ 30% de productivité. (Université de Montréal)</li>
+        <li>Python - Développement un programme d’automatisation de gestion de fichier en Python
+            permettant ainsi d’améliorer la productivité des calculs de prestations de 10%. (Télus Santé) </li>
+    </ul>
+
+    <h3>Idea Project</h3>
     <ul>
         <li>Predict Stock Market (Machine Learning) - Random Forest</li>
         <li>Monitoring Funds' Performance</li>
@@ -16,7 +32,8 @@
         <li>Rebalancement Portefeuille</li>
         <li>Application Optimisation (cours prog)</li>
         <li>Apply Algorimth Strategy</li>
-
     </ul>
+
+
 </body>
 </html>

@@ -3,10 +3,7 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 
 
-# TODO Have one excel only, or can be an option
-
-# TODO Add the corresponding method for each parameter
-
+# TODO Conciliation between Project and Website
 # TODO Problem with consent(), put exception somehting like that. There is 2 cases.
 
 class Stock:
@@ -34,7 +31,6 @@ class Stock:
         self.openNewWindow()
         # self.consent()
 
-        # TODO Can do un for loop maybe. Need a list of each option or something like that
         if self.isIncomeStatement:
             self.getFinancialStatement("financials")
             self.openNewWindow()
